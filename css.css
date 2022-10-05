@@ -1,0 +1,34 @@
+#bgid {
+    animation-name: bganimation;
+    animation-duration: 15s;
+    animation-iteration-count: infinite;
+    position: relative;
+  }
+  @keyframes bganimation {
+    25% {
+      background-image: url("https://earth911.com/wp-content/uploads/2020/02/AdobeStock_96317730-1.jpeg");
+      /* background-color: aqua; */
+      left: 0%;
+    }
+    50% {
+      background-image: url("http://ens-newswire.com/wp-content/uploads/2013/12/20131204_Indiahunger.jpg");
+  
+      /* left: 25%; */
+    }
+    70% {
+      background-image: url("https://static.toiimg.com/photo/91277984.cms");
+      /* background: #ff453f; */
+      /* left: 50%; */
+    }
+    85% {
+      background-image: url("fw2.jpg");
+      /* background-color: rgb(255, 208, 0); */
+      /* left: 75%; */
+    }
+    100% {
+      background-image: url("fw.jpg");
+      /* background-color: rgb(0, 255, 136); */
+      /* left: 100%; */
+    }
+  }
+  
